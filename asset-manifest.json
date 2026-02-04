@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tnirjala/valentine-invitation.git/static/css/main.a01c6648.css",
+    "main.js": "/tnirjala/valentine-invitation.git/static/js/main.1d302f72.js",
+    "static/js/453.371ca4ef.chunk.js": "/tnirjala/valentine-invitation.git/static/js/453.371ca4ef.chunk.js",
+    "index.html": "/tnirjala/valentine-invitation.git/index.html",
+    "main.a01c6648.css.map": "/tnirjala/valentine-invitation.git/static/css/main.a01c6648.css.map",
+    "main.1d302f72.js.map": "/tnirjala/valentine-invitation.git/static/js/main.1d302f72.js.map",
+    "453.371ca4ef.chunk.js.map": "/tnirjala/valentine-invitation.git/static/js/453.371ca4ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a01c6648.css",
+    "static/js/main.1d302f72.js"
+  ]
+}
