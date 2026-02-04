@@ -166,9 +166,6 @@ export default function ValentineEnvelope() {
               <p className="text-3xl text-gray-800 font-semibold leading-relaxed">
                 Mayai Maya timi lai ❤️
               </p>
-              <p className="text-2xl text-pink-600 mt-4 font-medium">
-                Happy Valentine's Day! 💕
-              </p>
             </div>
           </div>
         </div>
