@@ -39,11 +39,11 @@ In line ~31:
 {[...Array(30)].map  // Change 30 to any number
 ```
 
-## 📱 Features
+##Features
 - Responsive design (mobile & desktop)
 - Interactive envelope animation
 - Moving "No" button
 - Dynamic stickers
 - Heart rain on "Yes"
 
-**Made with ❤️ for Valentine's Day**
+**Made with for Valentine's Day**
