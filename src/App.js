@@ -29,15 +29,14 @@ export default function ValentineEnvelope() {
   };
 
   return (
-    <div 
-    className="relative w-full h-screen overflow-hidden bg-cover bg-center bg-no-repeat"
-    style={{
-      backgroundImage: window.innerWidth >= 768 
-        ? "url('/desktop-bg.jpg')" 
-        : "url('/mobile-bg.jpg')"
-    }}
-  >
-      
+ <div 
+  className="relative w-full h-screen overflow-hidden bg-cover bg-center bg-no-repeat"
+  style={{
+    backgroundImage: window.innerWidth >= 768 
+      ? `url(${process.env.PUBLIC_URL}/desktop-bg.jpg)` 
+      : `url(${process.env.PUBLIC_URL}/mobile-bg.jpg)`
+  }}
+>
       {/* Falling Hearts Animation */}
       {accepted && (
         <div className="absolute inset-0 pointer-events-none overflow-hidden z-50">
@@ -110,11 +109,14 @@ export default function ValentineEnvelope() {
             <div className="text-center space-y-6">
               {/* Dynamic Sticker - Happy or Sad */}
               <div className="flex justify-center">
-                <img 
-                  src={isSadSticker ? "/sad-sticker.png" : "/happy-sticker.png"} 
-                  alt="sticker"
-                  className="w-32 h-32 object-contain transition-all duration-300"
-                />
+              <img 
+               src={isSadSticker 
+               ? `${process.env.PUBLIC_URL}/sad-sticker.png` 
+               : `${process.env.PUBLIC_URL}/happy-sticker.png`} 
+               alt="sticker"
+               className="w-32 h-32 object-contain transition-all duration-300"
+               />
+
               </div>
               <h1 className="text-4xl font-bold text-red-600 font-serif">Hi, Nimo!</h1>
               <p className="text-3xl font-semibold text-gray-800 leading-relaxed">
@@ -154,11 +156,12 @@ export default function ValentineEnvelope() {
             <div className="bg-white/95 backdrop-blur-sm rounded-3xl shadow-2xl p-12 mx-4 border-4 border-red-900">
               {/* Love Sticker */}
               <div className="flex justify-center mb-6">
-                <img 
-                  src="/love-sticker.png" 
-                  alt="love sticker"
-                  className="w-40 h-40 object-contain animate-bounce-slow"
-                />
+              <img 
+                src={`${process.env.PUBLIC_URL}/love-sticker.png`} 
+                alt="love sticker"
+                className="w-40 h-40 object-contain animate-bounce-slow"
+              />
+
               </div>
               <h1 className="text-5xl font-bold text-red-600 mb-6 font-serif animate-pulse">
                 Yay! 🎉
