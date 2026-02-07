@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/valentine-invitation/static/css/main.a01c6648.css",
-    "main.js": "/valentine-invitation/static/js/main.6791d150.js",
+    "main.js": "/valentine-invitation/static/js/main.c8e05575.js",
     "static/js/453.371ca4ef.chunk.js": "/valentine-invitation/static/js/453.371ca4ef.chunk.js",
     "index.html": "/valentine-invitation/index.html",
     "main.a01c6648.css.map": "/valentine-invitation/static/css/main.a01c6648.css.map",
-    "main.6791d150.js.map": "/valentine-invitation/static/js/main.6791d150.js.map",
+    "main.c8e05575.js.map": "/valentine-invitation/static/js/main.c8e05575.js.map",
     "453.371ca4ef.chunk.js.map": "/valentine-invitation/static/js/453.371ca4ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a01c6648.css",
-    "static/js/main.6791d150.js"
+    "static/js/main.c8e05575.js"
   ]
 }
