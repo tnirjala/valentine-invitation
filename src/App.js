@@ -118,7 +118,7 @@ export default function ValentineEnvelope() {
                />
 
               </div>
-              <h1 className="text-4xl font-bold text-red-600 font-serif">Hi, Nimo!</h1>
+              <h1 className="text-4xl font-bold text-red-600 font-serif">Hi, Baby!</h1>
               <p className="text-3xl font-semibold text-gray-800 leading-relaxed">
                 Will you be my Valentine?
               </p>
